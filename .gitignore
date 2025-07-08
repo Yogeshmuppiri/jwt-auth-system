@@ -1,0 +1,19 @@
+# General
+node_modules/
+.env
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build
+dist/
+build/
+
+# Node modules
+node_modules/
+
+# Build artifacts (if you're building the React app)
+frontend/build/
