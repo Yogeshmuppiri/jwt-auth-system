@@ -56,12 +56,13 @@ User gains access to protected content (like /dashboard).
 
 If expired or invalid → user is denied access.
 
+
 🔍 JWT vs Regular Login
-Feature	Regular Login	JWT Authentication
-Session Storage	Server memory (sessions)	Token stored on client (localStorage/cookie)
-Scalability	Less scalable	Highly scalable (no session storage needed)
-Stateless	❌ No (server must track sessions)	✅ Yes
-Token Expiry Control	Difficult	Easy with expiresIn
-Mobile App Support	Not ideal	Perfect for mobile clients
-Requires Server Memory	✅ Yes	❌ No
-Cross-Origin Resource Use	Harder	Easier with tokens
+Feature	                        Regular                                          Login	JWT Authentication
+Session Storage	             Server memory (sessions)	                             Token stored on client (localStorage/cookie)
+Scalability	                 Less scalable	                                       Highly scalable (no session storage needed)
+Stateless	                   ❌ No (server must track sessions)	                   ✅ Yes
+Token Expiry Control	       Difficult	                                           Easy with expiresIn
+Mobile App Support	         Not ideal	                                           Perfect for mobile clients
+Requires Server Memory	     ✅ Yes	                                               ❌ No
+Cross-Origin Resource Use	   Harder	                                               Easier with tokens
